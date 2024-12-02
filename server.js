@@ -23,6 +23,7 @@ app.use(express.json());
 //Define the list of allowed origins
 const allowedOrigins = [
   "https://art-nakkk-admin-frontend.vercel.app",
+  "https://art-nakkk-user-frontend.vercel.app",
   "http://localhost:5173",
   "http://localhost:5174",
   "http://localhost:5175", // For local development
